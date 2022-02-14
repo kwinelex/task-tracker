@@ -1,8 +1,11 @@
 <!-- DB INCLUDE -->
 <?php
-include('../database/db-conection.php');
-include('../helpers/select-data.php');
-include('../helpers/delete-data.php');
+    include('../database/db-conection.php');
+    include('../helpers/select-data.php');
+    include('../helpers/delete-data.php');
+
+    // Code session close
+    mysqli_close($conn);
 ?>
 <!-- ------------------------------------------------------------------------ -->
 

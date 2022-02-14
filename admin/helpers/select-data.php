@@ -8,6 +8,4 @@
     $totalUserSelectQuery = "SELECT COUNT(user_lastname) AS user_total FROM tb_users;";
     $totalUserExecute = mysqli_query($conn, $totalUserSelectQuery);
     $totalUserResults = mysqli_fetch_all($totalUserExecute, MYSQLI_ASSOC);
-
-    mysqli_close($conn);
 ?>

@@ -6,6 +6,7 @@
 
         if ($userDeleteExecute) {
             echo "<font color='green'> Record deleted from database";
+            header('Location: user.php');
         }
         else{
             echo "<font color='red'> Failed to delete record from database";
