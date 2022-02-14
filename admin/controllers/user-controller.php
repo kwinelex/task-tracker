@@ -27,7 +27,7 @@ foreach ($userResults as $userResult) {
             </td>
             <td>
                 <div class="row text-center">
-                    <a href=""class="col text-decoration-none rounded text-light bg-primary mx-1"><i class="fa-solid fa-pen-to-square"></i> Edit</a>
+                    <a href="edit-user.php?updateUser='.$id.'" class="col text-decoration-none rounded text-light bg-primary mx-1"><i class="fa-solid fa-pen-to-square"></i> Edit</a>
                     <a href="user.php?deleteUser='.$id.'" class="col text-decoration-none rounded text-light bg-danger mx-1"><i class="fa-solid fa-trash-can"></i> Delete</a>
                 </div>
             </td>

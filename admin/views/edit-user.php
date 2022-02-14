@@ -1,7 +1,7 @@
 <!-- DB INCLUDE -->
 <?php
 include('../database/db-conection.php');
-include('../helpers/insert-data.php');
+include('../helpers/update-data.php');
 ?>
 <!-- ------------------------------------------------------------------------ -->
 
@@ -17,10 +17,10 @@ include('../helpers/insert-data.php');
 <div class="row body-color body-cust text-success">
     <div class="col shadow body-first-layer-color body-first-layer-cust">
         <div class="row p-2 mb-2 bg-light shadow-sm justify-content-between">
-            <div class="col text-start">New User</div>
+            <div class="col text-start">Edit User</div>
         </div>
         <div class="row p-2 bg-light shadow-sm">
-            <form action="add-user.php" method="POST" enctype="multipart/form-data">
+            <form action="edit-user.php" method="POST" enctype="multipart/form-data">
                 <div class="row justify-content-between">
                     <div class="col">
                         <div class="mb-3">
@@ -69,7 +69,7 @@ include('../helpers/insert-data.php');
                     </div>
                 </div>
                 <div class="row m-0">
-                    <button class="btn btn-success" type="submit" value="create now">Create Now</button>
+                    <button class="btn btn-success" type="submit" value="edit now">Edit Now</button>
                 </div>
             </form>
         </div>
