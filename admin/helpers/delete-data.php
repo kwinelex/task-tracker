@@ -1,7 +1,7 @@
 <?php 
     if(isset($_GET['deleteUser'])){
         $id = $_GET['deleteUser'];
-        $deleteUserQuery = "DELETE FROM `tb_user` WHERE user_id= $id";
+        $deleteUserQuery = "DELETE FROM tb_users WHERE user_id= $id";
         $userDeleteExecute = mysqli_query($conn, $deleteUserQuery);
 
         if ($userDeleteExecute) {
