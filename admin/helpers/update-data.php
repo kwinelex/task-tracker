@@ -1,5 +1,5 @@
 <?php 
-$id = $_GET['updateUser'];
+    $id = $_GET['updateUser'];
     if(!isset($_POST['edit now'])){
         // Authentication
         $user_name = $_POST['user_name'];
@@ -20,10 +20,9 @@ $id = $_GET['updateUser'];
 
             if($editUserExecute){
                 echo "<div class='alert alert-success p-0' role='alert'> Update successfully </div>";
-                echo "Success status: ". mysqli_info($conn);
             }
             else{
-                // echo "<div class='alert alert-danger' role='alert'> Failed update</div>";
+                echo "<div class='alert alert-danger' role='alert'> Failed update</div>";
                 die(mysqli_error($conn));
             }
         }

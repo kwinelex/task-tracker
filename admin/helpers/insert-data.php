@@ -13,7 +13,7 @@
         $user_email = $_POST['user_email'];
         $user_image = addslashes(file_get_contents($_FILES['user_image']['tmp_name']));
         
-        if (!empty($user_firstname) && !empty($user_lastname) && !empty($user_role) && !empty($user_status) && !empty($user_email) && !empty($user_upload) && !empty($user_name) && !empty($user_password)) {
+        if (!empty($user_firstname) && !empty($user_lastname) && !empty($user_role) && !empty($user_status) && !empty($user_email) && !empty($user_image) && !empty($user_name) && !empty($user_password)) {
             //  Insert data of user details
             $addUserQuery = "INSERT INTO tb_users(user_name, user_password, user_firstname, user_lastname, user_email, user_status, user_role, user_image) VALUES('$user_name', '$user_password', '$user_firstname', '$user_lastname', '$user_email','$user_status', '$user_role', '$user_image')";
             $addUserExecute = mysqli_query($conn, $addUserQuery);
