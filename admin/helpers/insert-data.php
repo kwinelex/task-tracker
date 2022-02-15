@@ -11,7 +11,7 @@
         $user_role = $_POST['user_role'];
         $user_status = $_POST['user_status'];
         $user_email = $_POST['user_email'];
-        $user_image = addslashes(file_get_contents($_FILES['user_upload']['tmp_name']));
+        $user_image = addslashes(file_get_contents($_FILES['user_image']['tmp_name']));
         
         if (!empty($user_firstname) && !empty($user_lastname) && !empty($user_role) && !empty($user_status) && !empty($user_email) && !empty($user_upload) && !empty($user_name) && !empty($user_password)) {
             //  Insert data of user details

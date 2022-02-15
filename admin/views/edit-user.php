@@ -69,7 +69,7 @@ include('../helpers/update-data.php');
                     </div>
                 </div>
                 <div class="row m-0">
-                    <button class="btn btn-success" type="submit" value="edit now">Edit Now</button>
+                    <button class="btn btn-primary" type="submit" value="edit now">Edit Now</button>
                 </div>
             </form>
         </div>
