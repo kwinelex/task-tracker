@@ -4,7 +4,7 @@
 > **TASK TRACKER** is a project built for help on project, task of staff and other option if someone need to note for remember.
 
 ## 2. Getting Started
->Peoject enviroment setup with HTML,CSS, BOOTSTRAP, PHP and connect to data with MYSQL.
+>Pរoject enviroment setup with HTML,CSS, BOOTSTRAP, PHP and connect to data with MYSQL.
 
 ### 2.1. WEB FEATURES
 - Admin User
