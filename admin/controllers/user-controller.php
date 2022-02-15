@@ -16,7 +16,7 @@ foreach ($userResults as $userResult) {
 
     echo '
         <tr>
-            <td>'.$id.'</td>
+            <td scop="row">'.$id.'</td>
             <td>'.$first_name.' '.$last_name.'</td>
             <td>'.$email.'</td>
             <td>
